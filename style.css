@@ -1,0 +1,115 @@
+body,h1,h2,h3,a {
+	text-align: center;
+}
+body,h3 {
+	font-family: Roboto;
+	font-size: 17px;
+	color: black;
+}
+body {
+	background-color: grey;
+}
+h1,h2, {
+	font-family: Lora
+}
+h1 {
+	font-size: 30px;
+	color: black;
+	font-weight: 700;
+	letter-spacing: 10px;
+
+}
+h2 {
+	font-size: 23px;
+	color: #00373C;
+	font-weight: 500;
+}
+h3 {
+	font-weight: 500;
+}
+a {
+	color: green;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.container {
+	margin: 40px auto;
+	width: 700px;
+}
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+.division {
+	background:white;
+	border-radius: 5px;
+	box-shadow: 0 15px 35px rgba(97,98,99,.3);
+	margin: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	padding-right: auto;
+	padding-left: auto;
+}
+.perfect-circle {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: rgb(100,100,100);
+}
+.list-inline i:hover {
+	color: black;
+}
+.btn-blue {
+	background-color: black;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
